@@ -34,6 +34,31 @@ This repository contains two Snowpark Python scripts that automate Excel ingesti
   - `modin.pandas`
   - `snowflake.snowpark.modin.plugin`
   - `openpyxl`
+ 
+---
+Copy Paste data into excel file in different sheets
+**Excel File Data**
+Sheet: **Summary**
+
+Summary Page	
+	
+Total Amount Spend	2450
+Total Order	15006
+Total Customers	3
+
+
+Sheet: **CUSTOMERS**
+CUSTOMER_ID	CUSTOMER_NAME	CITY	SIGNUP_DATE
+101	Amit	Pune	10-01-2025
+102	Neha	Mumbai	15-02-2025
+103	Raj	Delhi	01-03-2025
+
+
+Sheet: **ORDERS**
+ORDER_ID	CUSTOMER_ID	ORDER_DATE	AMOUNT
+5001	101	05-03-2025	1200
+5002	102	06-03-2025	800
+5003	101	07-03-2025	450
 
 ---
 

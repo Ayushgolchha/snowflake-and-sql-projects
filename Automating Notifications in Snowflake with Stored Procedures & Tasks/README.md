@@ -63,25 +63,28 @@ Creates a summary (Success vs Failure)
 Builds an HTML table email body
 Sends email via SYSTEM$SEND_EMAIL
 
-File: `03_create_stored_procedure_send_weekly_email.sql`
+**File:** `03_create_stored_procedure_send_weekly_email.sql`
 
 ---
 
-4) Create Weekly Task
+**4) Create Weekly Task**
 A task is scheduled using CRON to run the procedure every Sunday at 23:00 UTC.
-File: `04_create_weekly_task.sql`
+**File: **`04_create_weekly_task.sql`
 
+---
 
-Output (What Email Contains)
+**Output** **(What Email Contains)**
 The email includes:
 1) Job Summary (Last 7 Days)
 
-Status (Success / Failure)
-Count
+**Status (Success / Failure)
+Count**
 
 2) Detailed Log Table
 
-Log ID
+**Log ID
 Log Date
 Status
-Error Message (if any)
+Error Message (if any)**
+
+---

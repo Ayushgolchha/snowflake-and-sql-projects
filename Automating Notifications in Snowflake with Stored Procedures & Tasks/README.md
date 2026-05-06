@@ -69,7 +69,8 @@ Sends email via SYSTEM$SEND_EMAIL
 
 **4) Create Weekly Task**
 A task is scheduled using CRON to run the procedure every Sunday at 23:00 UTC.
-**File: **`04_create_weekly_task.sql`
+
+**File:**`04_create_weekly_task.sql`
 
 ---
 
